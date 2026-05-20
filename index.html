@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Yacht Audio Guide</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="app">
+    <header class="hero">
+      <p class="eyebrow">Captain Panel</p>
+      <h1>Yacht Audio Guide</h1>
+      <p class="subtitle">Панель капитана: маршрут, подсказки и аудио по точкам.</p>
+    </header>
+
+    <section class="control-card">
+      <label for="routeSelect">Маршрут</label>
+      <select id="routeSelect"></select>
+
+      <div class="button-grid">
+        <button id="startButton" class="primary-button">Начать GPS-тур</button>
+        <button id="testButton" class="secondary-button">Тест без GPS</button>
+      </div>
+
+      <p class="hint">GPS-тур использует местоположение телефона. Тестовый режим нужен, чтобы проверить маршрут дома.</p>
+    </section>
+
+    <section class="status-card">
+      <p class="status-label">Статус</p>
+      <h2 id="statusTitle">Выберите маршрут</h2>
+      <p id="statusText">После выбора маршрута можно включить GPS или пройти точки вручную.</p>
+    </section>
+
+    <section id="alertCard" class="alert-card hidden">
+      <p class="alert-kicker">⚓ Сейчас нужно включить</p>
+      <h2 id="alertTitle">Название точки</h2>
+      <p id="alertNote">Подсказка капитану</p>
+      <audio id="audioPlayer" controls></audio>
+
+      <div class="button-grid">
+        <button id="markPlayedButton" class="secondary-button dark">Отметить как проигранное</button>
+        <button id="nextPointButton" class="secondary-button dark">Следующая точка</button>
+      </div>
+    </section>
+
+    <section class="map-card">
+      <div id="map"></div>
+    </section>
+
+    <section class="points-card">
+      <div class="section-heading">
+        <h2>Точки маршрута</h2>
+        <p id="routeDescription">Описание маршрута появится здесь.</p>
+      </div>
+      <div id="pointsList" class="points-list"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="routes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
