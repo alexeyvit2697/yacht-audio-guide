@@ -14,7 +14,7 @@ const routes = {
         lat: 44.8234,
         lng: 20.4489,
         radius: 180,
-        audio: "audio/sunset/01-intro.mp3",
+        audio: "audio/sunset/01-intro.m4a",
         note: "Включить приветственный трек, когда гости уже на борту."
       },
       {
