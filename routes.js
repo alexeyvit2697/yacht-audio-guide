@@ -14,7 +14,7 @@ const routes = {
         lat: 44.8234,
         lng: 20.4489,
         radius: 180,
-        audio: "audio/sunset/01-intro.m4a",
+        audio: "audio_sunset_01-intro.m4a",
         note: "Включить приветственный трек, когда гости уже на борту."
       },
       {
@@ -23,7 +23,7 @@ const routes = {
         lat: 44.8248,
         lng: 20.4505,
         radius: 180,
-        audio: "audio/sunset/02-kalemegdan.mp3",
+        audio: "audio_sunset_01-intro.m4a",
         note: "Включить, когда крепость хорошо видна с воды."
       },
       {
@@ -32,7 +32,7 @@ const routes = {
         lat: 44.8261,
         lng: 20.4436,
         radius: 220,
-        audio: "audio/sunset/03-confluence.mp3",
+        audio: "audio_sunset_01-intro.m4a",
         note: "Включить перед выходом к месту, где встречаются две реки."
       },
       {
@@ -41,7 +41,7 @@ const routes = {
         lat: 44.8352,
         lng: 20.4372,
         radius: 240,
-        audio: "audio/sunset/04-war-island.mp3",
+        audio: "audio_sunset_01-intro.m4a",
         note: "Включить, когда остров появляется по курсу."
       },
       {
@@ -50,7 +50,7 @@ const routes = {
         lat: 44.8465,
         lng: 20.4129,
         radius: 240,
-        audio: "audio/sunset/05-zemun.mp3",
+        audio: "audio_sunset_01-intro.m4a",
         note: "Включить, когда видна набережная Земуна."
       },
       {
@@ -59,7 +59,7 @@ const routes = {
         lat: 44.8398,
         lng: 20.4213,
         radius: 260,
-        audio: "audio/sunset/06-sunset.mp3",
+        audio: "audio_sunset_01-intro.m4a",
         note: "Включить ближе к финалу прогулки, когда свет становится мягким."
       }
     ]
