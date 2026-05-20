@@ -23,7 +23,7 @@ const routes = {
         lat: 44.8248,
         lng: 20.4505,
         radius: 180,
-        audio: "audio/sunset/audio_sunset_01-intro.mp3.mp3",
+        audio: "audio/sunset/audio_sunset_01-intro.mp3",
         note: "Включить, когда крепость хорошо видна с воды."
       },
       {
@@ -32,7 +32,7 @@ const routes = {
         lat: 44.8261,
         lng: 20.4436,
         radius: 220,
-        audio: "audio/sunset/audio_sunset_01-intro.mp3.mp3",
+        audio: "audio/sunset/audio_sunset_01-intro.mp3",
         note: "Включить перед выходом к месту, где встречаются две реки."
       },
       {
