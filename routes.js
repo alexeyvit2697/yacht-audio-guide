@@ -11,27 +11,27 @@ const routes = {
       {
         id: 1,
         title: "Старт у марины",
-        lat: 44.8234,
-        lng: 20.4489,
-        radius: 180,
+        lat: 44.790401,
+        lng: 20.486363,
+        radius: 50,
         audio: "audio/audio_sunset_01-intro.mp3",
         note: "Включить приветственный трек, когда гости уже на борту."
       },
       {
         id: 2,
         title: "Калемегдан",
-        lat: 44.8248,
-        lng: 20.4505,
-        radius: 180,
+        lat: 44.790337,
+        lng: 20.482019,
+        radius: 50,
         audio: "audio/sunset/audio_sunset_01-intro.mp3",
         note: "Включить, когда крепость хорошо видна с воды."
       },
       {
         id: 3,
         title: "Слияние Савы и Дуная",
-        lat: 44.8261,
-        lng: 20.4436,
-        radius: 220,
+        lat: 44.790171,
+        lng: 20.480117,
+        radius: 50,
         audio: "audio/sunset/audio_sunset_01-intro.mp3",
         note: "Включить перед выходом к месту, где встречаются две реки."
       },
