@@ -19,8 +19,8 @@ const points = [
   {
     id: 2,
     title: "Калемегдан",
-    lat: 44.8248,
-    lng: 20.4505,
+    lat: 44.832413,
+    lng: 20.450355,
     radius: 180,
     audio: "audio/02-kalemegdan.mp3",
     note: "Включить, когда крепость хорошо видна с воды."
